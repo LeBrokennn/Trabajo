@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color:  #BEC1BB;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+#products {
+  width: 80%;
+  background-color: #E8EBE4;
+  margin-top: 50px;
+}
+
+#about {
+  width: 350px;
+  text-align: start;
+  box-sizing: border-box;
+  padding: 50px;
+  height: 920px;
+}
+
+#products > div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  height: 920px;
+  justify-content: space-evenly;
+}
+
+#products > div > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin-top: 150px;
+}
+
+#about > div > article {
+  width: 97%;
+  height: auto;
+  padding: 5px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 45px large;
+}
+section {
+  text-align: center;
+  padding-top: 300px;
+}
+.mini-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  border: 1px solid #E8EBE4;
+  font-family: sans-serif;
+  width: 125%;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.mini-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-color:#BEC1BB;
+  border: 2px solid #BEC1BB;
+}
+
+.mini-texto {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.mini-texto strong {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.mini-card1{
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.contenedor-boton {
+ background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+margin-right: -50px;
+
+}
+.btn {
+  background: #A491D2;
+  border: 4px solid #ffffff;
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-align: center;;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.fa-bars {
+  display:flex;
+  font-size: 24px;
+  color: #333;
+   top: 80px;
+  left: 300px;
+position: absolute;
+
+}
+
+.fa-message{
+   display:flex;
+  font-size: 24px;
+  color: #333;
+   top: 80px;
+  left: 260px;
+position: absolute;
+}
